@@ -406,3 +406,13 @@ private void btnPrimeroClick(object sender, EventArgs e)
 
 
 Haciendo doble click sobre el error nos permite ir a la línea donde tenemos el error de sintaxis y corregirlo.
+
+
+<br>
+<br>
+
+<hr>
+
+# [Ejercicios Tema 1](./ejers/ejercicios.md)
+
+<hr>
