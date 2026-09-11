@@ -5,19 +5,10 @@
 
 # Tema 1. Introducción a Visual Studio.NET
 
-[*1.	Introducción*](#_apartado1)
 
-[*2.	Introducción a .NET*](#_apartado2)
+<a id="_apartado1"></a>
 
-[*3.	Instalación de Visual Studio 2026*](#_apartado3)
-
-[*4.	Explorar el entorno de desarrollo*](#_apartado4)
-
-[*5.	Ejemplo de Proyecto Visual C#*](#_apartado5)
-
-
-
-# <a id="_apartado1"></a>1. Introducción.
+# 1. Introducción.
 El objetivo del módulo de Programación será aprender a programar de una forma correcta. 
 
 Programar consistirá en escribir un conjunto de instrucciones para conseguir que el ordenador resuelva un problema concreto. El resultado será un programa en un determinado lenguaje de programación.
@@ -56,7 +47,9 @@ Siguiendo con lo dicho anteriormente es como si nuestra frase o texto en castell
 <br>
 <br>
 
-# <a id="_apartado2"></a>2. Introducción a .NET
+<a id="_apartado2"></a>
+
+# 2. Introducción a .NET
 
 Los lenguajes de programación juegan un papel fundamental en Informática: actúan como enlace entre los problemas a resolver (aplicaciones) y la máquina que los resuelve (hardware).
 
@@ -92,7 +85,9 @@ Diseñador de formularios de Windows, herramientas para formularios, soporte de 
 <br>
 <br>
 
-# <a id="_apartado3"></a>3. Instalación de Visual Studio 2026**
+<a id="_apartado3"></a>
+
+# 3. Instalación de Visual Studio 2026**
 
 Para trabajar durante el curso en el módulo de Programación vamos a utilizar el entorno de Programación **Visual Studio 2026**.
 
@@ -116,7 +111,9 @@ Al instalar y llegar a la siguiente pantalla:
 <br>
 <br>
 
-# <a id="_apartado4"></a>4. Explorar el entorno de desarrollo.
+<a id="_apartado4"></a>
+
+# 4. Explorar el entorno de desarrollo.
 
 Durante la primera ejecución de *Visual Studio .NET 2026* nos da la posibilidad de instalar Copilot, para lo cual necesitáis una cuenta de GitHub: 
 
@@ -215,7 +212,9 @@ También se pueden ver en esta ventana los **Eventos** de los controles.
 <br>
 <br>
 
-# <a id="_apartado5"></a>5. Ejemplo de Proyecto Visual C#.
+<a id="_apartado5"></a>
+
+# 5. Ejemplo de Proyecto Visual C#.
 
 Este apartado explica cómo crear una aplicación sencilla en Visual C# .NET. El objetivo es introducir al proceso de programación global, no proporcionar información detallada sobre la sintaxis del lenguaje ni la implementación, lo cual se hará en temas posteriores.
 
