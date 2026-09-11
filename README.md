@@ -9,7 +9,7 @@
 
 [*2.	Introducción a .NET*](#_apartado2)
 
-[*3.	Instalación de Visual Studio 2022*](#_apartado3)
+[*3.	Instalación de Visual Studio 2026*](#_apartado3)
 
 [*4.	Explorar el entorno de desarrollo*](#_apartado4)
 
@@ -92,15 +92,18 @@ Diseñador de formularios de Windows, herramientas para formularios, soporte de 
 <br>
 <br>
 
-# <a name="_apartado3"></a>3. Instalación de Visual Studio 2022**
+# <a name="_apartado3"></a>3. Instalación de Visual Studio 2026**
 
-Para trabajar durante el curso en el módulo de Programación vamos a utilizar el entorno de Programación **Visual Studio 2022**.
+Para trabajar durante el curso en el módulo de Programación vamos a utilizar el entorno de Programación **Visual Studio 2026**.
 
 `De momento vamos a utilizar la versión **Community**. Es una versión gratuita, pero con todas las funcionalidades necesarias para seguir el curso de Programación.
 
 En el siguiente enlace podéis descargar dicha versión:
 
-<https://visualstudio.microsoft.com/es/vs/community/>
+<https://visualstudio.microsoft.com/es/downloads/>
+
+![Instalacion1](./images/imagen05a.png)
+
 
 Con la versión **Community**, Visual Studio nos da la opción al empezar de iniciar sesión, o bien registrarnos si no lo hemos hecho ya. Esto nos da una serie de ventajas, entre ellas, ampliar sin límite la evaluación de 30 días.
 
@@ -110,15 +113,24 @@ Al instalar y llegar a la siguiente pantalla:
 
 **nos basta con instalar Desarrollo de escritorio de .NET**.
 
-Durante la instalación nos da la posibilidad de instalar Copilot, para lo cual necesitáis una cuenta de GitHub. Esto nos permite ayudarnos de IA durante la programación. De momento, no es necesario que lo instaléis:
-
-![Instalacion2](./images/imagen05b.png)
-
 <br>
 <br>
 
 # <a name="_apartado4"></a>4. Explorar el entorno de desarrollo.
-Como hemos dicho al ejecutar por primera vez tenemos la opción de iniciar sesión. Lo podemos hacer con el usuario **@alu.edu.gva.es** que tenemos asignado.
+
+Durante la primera ejecución de *Visual Studio .NET 2026* nos da la posibilidad de instalar Copilot, para lo cual necesitáis una cuenta de GitHub: 
+
+![Instalacion2](./images/imagen05b.png)
+
+Esto nos permite ayudarnos de IA durante la programación. 
+
+---
+De momento, **NO LO INSTALÉIS**.
+---
+
+Tened en cuenta que el objetivo del módulo es que aprendáis a programar. La IA puede ser una ayuda interesante en ciertos momentos, pero, en nuestra opinión, es preferible que aprendáis los fundamentos de la programación sin apoyaros en ella.
+
+También, al ejecutar por primera vez tenemos la opción de iniciar sesión. Lo podemos hacer con el usuario **@alu.edu.gva.es** que tenemos asignado.
 
 ![Iniciar Sesion](./images/imagen06.png)
 
@@ -128,11 +140,11 @@ Dejaremos la configuración de desarrollo general:
 
 Al abrir Visual Studio, nos aparece una ventana inicial en la cual podemos abrir un proyecto ya creado o bien podemos crear uno nuevo. También podemos entrar en el entorno de trabajo directamente pulsando la opción “Continuar sin código” (De momento pulsaremos esta opción). 
 
-![Ventana inicial](./images/imagen08.png)
+![Ventana inicial](./images/imagen08a.png)
 
 ## Creación de nuestro primer proyecto
 
-A continuación, vamos a crear un primer proyecto. Pulsaremos en el menú **Archivo -> Nuevo -> Proyecto…** y nos aparecerá la siguiente pantalla:
+A continuación, vamos a crear un primer proyecto. Pulsaremos en el menú **Archivo -> Nuevo -> Proyecto o solución** y nos aparecerá la siguiente pantalla:
 
 Elegiremos arriba como Lenguaje **C#** y como Plataforma **Windows**. Elegiremos a continuación como plantilla **Aplicación de Windows Forms**.
 
@@ -144,7 +156,7 @@ Una vez tenemos creado el proyecto nos aparecerá el entorno con un aspecto simi
 
 Vamos a ver por encima las **principales partes del entorno** y en el siguiente apartado veremos cómo realizar un pequeño programa.
 
-![Entorno](./images/imagen10.png)
+![Entorno](./images/imagen10a.png)
 
 ### Menús y Barras de Herramientas.
 
@@ -221,7 +233,7 @@ A continuación, vamos a crear nuestro primer proyecto paso a paso en Visual C#.
 
 **1. Creamos un nuevo proyecto.**
 
-   Una vez abierto Visual Studio pulsamos el menú **Archivo -> Nuevo -> Proyecto**
+   Una vez abierto Visual Studio pulsamos el menú **Archivo -> Nuevo -> Proyecto o solución...**
 
    Nos aparecerá una pantalla como la siguiente donde elegiremos como tipo de proyecto **Visual C#** y en tipo de Plantilla **Aplicación de Windows Form**. 
 
@@ -237,7 +249,7 @@ A continuación, vamos a crear nuestro primer proyecto paso a paso en Visual C#.
 
    Entre los aspectos interesantes que vemos en la pantalla aparece lo que se llama un **formulario**. Este es el formulario principal de nuestra aplicación y es donde colocaremos las herramientas o controles (botones, textbox, labels) que nos van a permitir darle funcionalidad a nuestro programa. 
 
-   Si apretamos el boton  ![Boton iniciar](./images/imagen13.png) se **ejecutará** nuestra aplicación.
+   Si apretamos el boton  ![Boton iniciar](./images/imagen13a.png) se **ejecutará** nuestra aplicación.
 
 <br>
 
@@ -252,12 +264,12 @@ A continuación, vamos a crear nuestro primer proyecto paso a paso en Visual C#.
    La propiedad `Text` nos permite cambiar el texto que aparece en la barra del formulario.
 
 
-   ![Propiedad Text](./images/imagen14.png)
+   ![Propiedad Text](./images/imagen14a.png)
 
    Si ejecutamos después de haber cambiado esas propiedades, el resultado será parecido a esto:
 
 
-   ![Form azul](./images/imagen15.png)
+   ![Form azul](./images/imagen15a.png)
 
 <br>
 
@@ -269,7 +281,7 @@ A continuación, vamos a crear nuestro primer proyecto paso a paso en Visual C#.
 
    **Vamos a añadir un botón a nuestro formulario**. Para ello, dentro de Controles comunes, pinchamos en el control Button y lo arrastramos al formulario. Nos aparece un botón con el texto Button1.
 
-   ![Controles](./images/imagen16.png)
+   ![Controles](./images/imagen16a.png)
 
 <br>
 
@@ -286,7 +298,7 @@ A continuación, vamos a crear nuestro primer proyecto paso a paso en Visual C#.
 
    La propiedad Name no cambia el aspecto del botón, pero es la propiedad que le da nombre al mismo y que luego nos servirá para referenciarlo en el código del programa.
 
-![Ejecucion 2](./images/imagen17.png)
+![Ejecucion 2](./images/imagen17a.png)
 
 <br>
 
@@ -329,7 +341,7 @@ namespace Ejemplo01Tema01
 
 ```
 
-En temas posteriores nos introduciremos en la sintaxis de C# e iremos entendiendo las distintas partes del código. De momento únicamente nos interesa el método o subprograma btnPrimero\_Click. Éste es el método que se ejecutará cuando ocurra el evento click en el botón.
+En temas posteriores nos introduciremos en la sintaxis de C# e iremos entendiendo las distintas partes del código. De momento únicamente nos interesa el método o subprograma `btnPrimero_Click`. Éste es el método que se ejecutará cuando ocurra el evento click en el botón.
 
 Ahora vamos a añadir código para que se ejecute cuando ocurra el evento click sobre el botón:
 
@@ -340,11 +352,11 @@ private void bntPrimero_Click(object sender, EventArgs e)
 }
 ```
 
-Vamos ahora a ejecutar de nuevo el programa ![Boton iniciar](./images/imagen13.png) y pulsar sobre el botón de nuestra aplicación:
+Vamos ahora a ejecutar de nuevo el programa ![Boton iniciar](./images/imagen13a.png) y pulsar sobre el botón de nuestra aplicación:
 
 ![Aplicacion](./images/imagen19.png)
 
-MessageBox.Show nos permite mostrar por pantalla un texto.
+`MessageBox.Show` nos permite mostrar por pantalla un texto.
 
 <br>
 
@@ -402,7 +414,7 @@ private void btnPrimeroClick(object sender, EventArgs e)
 
 **Siempre pulsaremos No** para poder arreglar los errores de compilación.
 
-![Errores](./images/imagen23.png)
+![Errores](./images/imagen23a.png)
 
 
 Haciendo doble click sobre el error nos permite ir a la línea donde tenemos el error de sintaxis y corregirlo.
