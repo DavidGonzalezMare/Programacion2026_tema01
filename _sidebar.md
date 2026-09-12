@@ -10,5 +10,5 @@
 
   - [5. Ejemplo de Proyecto Visual C#](README.md#_apartado5)
 
-  - [Ejercicios](ejers/ejercicios.md)
+  - [Ejercicios](ejers/ejercicios.md#_apartado1)
   
