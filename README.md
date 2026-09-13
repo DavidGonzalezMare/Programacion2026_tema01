@@ -87,11 +87,11 @@ Diseñador de formularios de Windows, herramientas para formularios, soporte de 
 
 <a id="_apartado3"></a>
 
-# 3. Instalación de Visual Studio 2026**
+# 3. Instalación de Visual Studio 2026
 
 Para trabajar durante el curso en el módulo de Programación vamos a utilizar el entorno de Programación **Visual Studio 2026**.
 
-`De momento vamos a utilizar la versión **Community**. Es una versión gratuita, pero con todas las funcionalidades necesarias para seguir el curso de Programación.
+De momento vamos a utilizar la versión **Community**. Es una versión gratuita, pero con todas las funcionalidades necesarias para seguir el curso de Programación.
 
 En el siguiente enlace podéis descargar dicha versión:
 
